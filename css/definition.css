@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #2e5d24;
+}
+
+/* colors: #53245d #2e5d24 #5cb848*/
+
+h1 {
+  font-size: 30pt;
+  color: white;
+  font-weight: normal;
+  font-family: "Shizuru", cursive;
+
+}
+
+h2 {
+  color: black;
+  font-size: 20pt;
+  font-family: "Shizuru", cursive;
+}
+
+h3 {
+  color: black;
+  font-size: 15pt;
+  font-family: "Shadows Into Light", cursive;
+}
+
+p {
+  font-size: 15pt;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.page {
+  width: 700px;
+  margin: auto;
+}
+
+.buttonholder {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.item {
+  margin: 30px 0;
+}
+
+#definitionbutton {
+  font-family: "Shadows Into Light";
+  background-color: #53245d;
+  font-size: 16pt;
+  width: 100px;
+  height: 40px;
+}
+
+#definitionbutton:hover {
+  background-color: #46204E;
+}
+
+img {
+  height: 70px;
+}
+
+.definitionholder {
+  width: 70%;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #53245d;
+}
+
+.github {
+  opacity: 0.5;
+}
+
+.github:hover {
+  opacity: 1;
+}
